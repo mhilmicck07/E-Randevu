@@ -23,7 +23,7 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     #! Home:
-    path('home/', include('Home.urls')),
+    path('', include('Home.urls')),
 
     #! AppointmentHub:
     path('appointment/', include('Appointment.urls')),
